@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "IntroBold", sans-serif;
+  src: url("./fons/Intro-Bold-Alt.ttf");
+}
+
+@font-face {
+  font-family: "IntroBook", sans-serif;
+  src: url("./fons/Intro-Book.ttf");
+}
+
+@font-face {
+  font-family: "IntroRegular", sans-serif;
+  src: url("./fons/Intro-Regular.ttf");
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: "Intro Bold", sans-serif;
+  font-size: calc(1.2rem + 1vw);
+  font-weight: 700;
+  line-height: 30px;
+}

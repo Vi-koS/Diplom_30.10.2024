@@ -1,0 +1,34 @@
+.section {
+    background: #484283;
+    width: 100%;
+    min-height: 1190px;
+    background-image: url("../../../public/Team.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+
+.cards {
+    max-width: 1180px;
+    min-height: 1000px;
+    border-radius: 4px 0px 0px 0px;
+    margin: 0 auto;
+
+}
+
+.h2 {
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+.cont_h2{
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+.img {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
