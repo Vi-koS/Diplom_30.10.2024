@@ -6,11 +6,13 @@ import FormQuestion from "../../FormQuestions";
 import Header from "../../Header/header";
 import OurTeam from "../../OurTeam";
 import PerfectCouple from "../../PerfectCouple";
+import Sneakers from "../../sneakers";
 
 const Home = () => {
     return (
         <div>
             <Header />
+            <Sneakers/>
             <About />
             <PerfectCouple/>
             <OurTeam/>
